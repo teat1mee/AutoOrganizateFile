@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class AutoOrganizateFile {
     
 
-    private static final String USERHOME = System.getProperty("user.home");
-    private static final String FILEPATH = USERHOME + "/Загрузки";
-    private static final String FILEIMAGE = USERHOME + "/Изображения";
-    private static final String FILEDOC = USERHOME + "/Документы";
-    private static final String FILEARCHIVE = USERHOME + "/Архивы";
+    //private static final String USERHOME = System.getProperty("user.home");
+    //private static final String FILEPATH = USERHOME + "/Загрузки";
+    //private static final String FILEIMAGE = USERHOME + "/Изображения";
+    //private static final String FILEDOC = USERHOME + "/Документы";
+    //private static final String FILEARCHIVE = USERHOME + "/Архивы";
     
     // -------------- <use your languageFolder> -------------- //
 
-    // private static final String FILEPATH = USERHOME + "/Downloads";
-    // private static final String FILEIMAGE = USERHOME + "/Pictures";
-    // private static final String FILEDOC = USERHOME + "/Documents";
-    // private static final String FILEARCHIVE = USERHOME + "/Archive";
+     private static final String FILEPATH = USERHOME + "/Downloads";
+     private static final String FILEIMAGE = USERHOME + "/Pictures";
+     private static final String FILEDOC = USERHOME + "/Documents";
+     private static final String FILEARCHIVE = USERHOME + "/Archive";
 
     public static void main(String[] args) {
 
