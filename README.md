@@ -22,18 +22,26 @@ AutoOrganizateFile — Автоматический организатор фа�
     Убедитесь, что установлен Java (версия 8 или новее).
     Откройте терминал в папке с файлом AutoOrganizateFile.java.
     Скомпилируйте программу:
-       javac AutoOrganizateFile.java
+    javac AutoOrganizateFile.java
+    
     Запустите программу (обратите внимание — без расширения .java!):
-       java AutoOrganizateFile
+    java AutoOrganizateFile
+    
     Следуйте инструкциям в консоли. Программа предложит создать недостающие папки.
      
 
 Структура папок (пример для Linux с русской локалью):
+
 /home/ваше_имя/
+
 ├── Загрузки/        ← отсюда берутся файлы
+
 ├── Изображения/     ← сюда перемещаются картинки
+
 ├── Документы/       ← сюда — документы
+
 └── Архивы/          ← сюда — архивы 
+
 
 Советы: 
 
@@ -59,8 +67,8 @@ system folders. It runs on Windows, Linux and macOS.
 Supported formats: 
 
     Images: .png, .jpg, .jpeg, .gif
-Documents: .doc, .txt
-Archives: .zip, .tar, .jar, .rpm
+    Documents: .doc, .txt
+    Archives: .zip, .tar, .jar, .rpm
      
 
 Important for Linux users:
@@ -72,28 +80,36 @@ How to launch:
 
     Make sure that Java (version 8 or later) is installed.
     Open the terminal in the file folder AutoOrganizateFile.java .
+    
     Compile the program:
-javac AutoOrganizateFile.java
+    javac AutoOrganizateFile.java
+    
     Run the program (please note — without the extension .java!):
-       java AutoOrganizateFile
+    java AutoOrganizateFile
+    
     Follow the instructions in the console. The program will prompt you to create the missing folders.
      
 
 Folder structure (example for Linux with a Russian locale):
 /home/your_name/
-├── Downloads/        , this is where the files come from
-,── Images/     , images are moved here
-,── Documents/       , here are the documents
-,── Archives/          , here — archives 
+
+├── Downloads/        ← this is where the files come from
+
+├── Images/     ←  images are moved here
+
+├── Documents/       ←  here are the documents
+
+└── Archives/          ←  here — archives 
 
 Recommendations: 
+
 
     Do not run the program as "java AutoOrganizateFile.java" is incorrect.
     That's right: "java AutoOrganizateFile".
     If the program says "folder not found", check the real folder name. 
     using the command: ls /home/your_name/
     You can use cron (Linux/macOS)
-or the Task Scheduler (Windows) to start automatically.
+    or the Task Scheduler (Windows) to start automatically.
      
 
 License: Open Source — use and modify freely.
